@@ -43,7 +43,6 @@ namespace Lab_1._1
                         double result4 = Math.Pow(2, x) * x * Math.Cos(x) + 1;
                         Console.WriteLine($"Значение выражения 2^x*x*cos(x)+1: {result4}");
                     }
-
                 }
             }
             Console.ReadLine();
