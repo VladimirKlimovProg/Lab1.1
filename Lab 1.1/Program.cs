@@ -10,6 +10,7 @@ namespace Lab_1._1
             if (!int.TryParse(Console.ReadLine(), out int m))
             {
                 Console.WriteLine("Некорректный ввод. Необходимо целое число");
+                return;
             }
             else
             {
@@ -17,6 +18,7 @@ namespace Lab_1._1
                 if (!int.TryParse(Console.ReadLine(), out int n))
                 {
                     Console.WriteLine("Некорректный ввод. Необходимо целое число");
+                    return;
                 }
                 else
                 {
